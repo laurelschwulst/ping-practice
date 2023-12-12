@@ -353,6 +353,21 @@ article a:hover {
   background-color: rgba(146, 147, 147, .25);
 }
 
+.responsive-video-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* Aspect ratio: 16/9 = 56.25% */
+  height: 0;
+}
+
+.responsive-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* media queries */
 
 @media screen and (max-width: 850px) {
