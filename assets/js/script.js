@@ -16,5 +16,5 @@ const phrases = [
             $(this).text(phrases[count % phrases.length]).fadeIn(400);
         });
         count++;
-    }, 3000);
+    }, 4500);
 })(jQuery);
